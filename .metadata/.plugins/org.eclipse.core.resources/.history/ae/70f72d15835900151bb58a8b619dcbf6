@@ -1,0 +1,15 @@
+import static org.junit.Assert.*;
+
+import java.io.FileNotFoundException;
+
+import org.junit.Test;
+
+public class WordGeneratorTest {
+
+	@Test
+	public void testWordCount() throws FileNotFoundException {
+		WordGenerator w1 = new WordGenerator("/home/murphydy/csc207/csc207-speed-reader/README.md");
+		System.out.println(w1.next());
+		assertEquals("w1.getWordCount = 1", 1, w1.getWordCount());
+	}
+}

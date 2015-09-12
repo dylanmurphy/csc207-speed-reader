@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="WordGenerator" project="WordGenerator" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="WordGeneratorTest" time="0.017">
+    <testcase name="testWordCount" classname="WordGeneratorTest" time="0.017"/>
+  </testsuite>
+</testrun>
